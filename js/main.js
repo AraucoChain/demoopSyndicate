@@ -621,6 +621,7 @@ async function createClub() {
       $('#successCreateClub').css("display","block");
       $('#successCreateClub').text("Club created successfully with the name: " + clubName);
     } catch(e) {
+      console.log(e);
       $('.valid-feedback').css('display','none');
         $('.invalid-feedback').css('display','block');
         $('.loading_message_creating').css("display","none");
