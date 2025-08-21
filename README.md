@@ -4,6 +4,12 @@
 ## Focus of this project
 The focus, from our experience working with investment managers, is to make it easier for both fund managers and people with capital to work to invest in both crypto and real (off-chain) projects.
 
+## Roadmap
+These are the next steps:
+- [x] Create demo app
+- [ ] Enable eERC20 in Avalanche testnet.
+- [ ] Integrate Arauco Chain testnet (L1 network)
+
 
 ## License
 ----
