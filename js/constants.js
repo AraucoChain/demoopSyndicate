@@ -603,4 +603,4 @@ var contractABI = [
 	}
 ];
 
-var investmentContractAddress = '0x3258814758AC48fE9c0869d43Df8F13aD0cB2A25';
+var investmentContractAddress = '0x0b8f8cd9D7AA6E75F452BdB4B5d361134A8Efb80';
