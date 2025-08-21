@@ -23,8 +23,8 @@ MIT License
 
 What you can currently do in this version is:
 - **Create investment clubs**: Just define a name, and a minimum amount to join, and the club will be associated with the account of the user who creates it (owner).
-- **Join or leave clubs**: Anyone with a Unicorn Ultra Network account can join the available investment clubs, as well as leave one, with just a couple of clicks.
-- **Contribute to the club**: Any member of a club can contribute to the common fund (pool), depositing U2U that can be used in proposals.
+- **Join or leave clubs**: Anyone with a Avalanche Fuji testnet account (soon in Arauco Chain) can join the available investment clubs, as well as leave one, with just a couple of clicks.
+- **Contribute to the club**: Any member of a club can contribute to the common fund (pool), depositing AVAX (soon RAUCO, the native coin and other eERC20 tokens) that can be used in proposals.
 - **Create and Vote on Proposals**: Any member who has contributed funds to the club pool can create proposals, giving a description, amount (not to exceed the pool amount), and recipient, with a view to investing in any business/person in a project. Also, all members can approve or reject the proposal (only one vote per member is allowed on each proposal).
 - **Run Proposals**: A proposal owner can execute a proposal (if approval is greater than rejection), which will cause the proposal amount to be sent to the specified recipient. The owner can also close a proposal, in case of not continuing with it, either as a cancellation, publication error or to avoid sending funds.
 

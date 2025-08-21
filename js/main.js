@@ -583,8 +583,8 @@ async function createClub() {
       $('#errorCreateClub').text("The minimum to join is not valid.");
       return;
     }
-    try
-    {
+    // try
+    // {
       $('.loading_message_creating').css("display","block");
       minimumToEnter = web3.utils.toWei(minimumToEnter,"ether");
       const query = contractPublic.methods.createClub(clubName, minimumToEnter);
@@ -620,13 +620,13 @@ async function createClub() {
       $('.loading_message_creating').css("display","none");
       $('#successCreateClub').css("display","block");
       $('#successCreateClub').text("Club created successfully with the name: " + clubName);
-    } catch(e) {
-      console.log(e);
-      $('.valid-feedback').css('display','none');
-        $('.invalid-feedback').css('display','block');
-        $('.loading_message_creating').css("display","none");
-        $('.invalid-feedback').text(e.message);
-    }
+    // } catch(e) {
+    //   console.log(e);
+    //   $('.valid-feedback').css('display','none');
+    //     $('.invalid-feedback').css('display','block');
+    //     $('.loading_message_creating').css("display","none");
+    //     $('.invalid-feedback').text(e.message);
+    // }
     
     
   }
